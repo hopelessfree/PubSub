@@ -1,0 +1,25 @@
+<view class="container">
+
+	<input
+	 type="text"
+	 bind:input="onInput"
+	 class="input"
+	 value="{{value}}"
+	/>
+
+	<view
+	 class="button"
+	 bind:tap="onAdd"
+	>
+		add
+	</view>
+
+	<view
+	 class="button"
+	 bind:tap="onBack"
+	>
+		back
+	</view>
+
+</view>
+

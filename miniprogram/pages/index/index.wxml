@@ -1,0 +1,11 @@
+<view class="container">
+	<view
+	 wx:for="{{books}}"
+	 wx:key="name"
+	 class="item"
+	>{{item.name}}
+	</view>
+	<navigator url="/pages/add/index">跳转</navigator>
+	<!-- <view class="button"></view> -->
+</view>
+
